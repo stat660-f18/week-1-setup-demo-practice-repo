@@ -3,7 +3,7 @@
 
 *data step; *proc step;
 data _null_; /*_null_ prevents the output of a dataset*/
-	put 'this is another tryout for github desktop'; /*put statement outputs in the log, helpful debugging tool,determines how far a program has run before errors*/
+	put 'modified notes'; /*put statement outputs in the log, helpful debugging tool,determines how far a program has run before errors*/
 run; /*terminate the data step*/
 
 data _null_;
