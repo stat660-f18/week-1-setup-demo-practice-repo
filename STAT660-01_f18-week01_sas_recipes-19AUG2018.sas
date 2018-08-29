@@ -48,12 +48,13 @@ Approach: Use a null data step and business logic to write to the log
 *Example;
 data _null_;
     do i = 1 to 100;
-        if mod(i,3) = 0 then put 'Fizz';
+        if mod(i,15)=0 then put 'My Phan';
+		else if mod(i,3) = 0 then put 'Fizz';
         else if mod(i, 5) = 0 then put 'Buzz';
         else put i=;
     end;
 run;
-)
+
 /*
 Notes:
 (1) In this example, the four main components of imperative programming are
