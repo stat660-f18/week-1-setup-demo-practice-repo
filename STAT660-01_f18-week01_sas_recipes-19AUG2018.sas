@@ -21,7 +21,7 @@ run;
 
 *Example;
 data _null_;
-    put 'Hello, World!';
+    put 'WEI hU1';
 run;
 /*
 Notes:
