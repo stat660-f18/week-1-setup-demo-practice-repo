@@ -10,8 +10,8 @@ data _null_;
 	do i=1 to 100; /*use loop to repeat an operation*/
 		/*use branching logic to test the value of variable i*/
 		if mod(i,3)=0 and mod(i,5)=0 then put 'Yaqiong Li';
-		else if mod(i,3)=0 then put 'Fizz'; /*mod function*/
-		else if mod(i,5)=0 then put 'Buzz';
+		else if mod(i,3)=0 then put 'Yaqiong'; /*mod function*/
+		else if mod(i,5)=0 then put 'Li';
 		else put i=;
 	end;
 run;
