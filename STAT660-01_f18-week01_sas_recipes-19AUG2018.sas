@@ -2,7 +2,7 @@
 **************** 80-character banner for column width reference ***************;
 * (set window width to banner width to calibrate line length to 80 characters *;
 *******************************************************************************;
-
+dd
 
 *******************************************************************************;
 * hello_world ;
@@ -11,7 +11,7 @@
 Scenario: Printing to the SAS log.
 
 Approach: Use a null data step and put statement to write to the log
-
+s
 Recipe <with everything in square brackets to be filled in for actual use>:
 
 data _null_;
